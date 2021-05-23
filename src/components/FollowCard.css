@@ -1,0 +1,47 @@
+:root {
+  --primary: #1888ff;
+}
+
+.follow-card {
+  margin: 0.5rem;
+  width: 10rem;
+  max-height: 303px;
+  background-color: rgb(247, 241, 241);
+  padding: 1em;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  transition: transform 0.2s ease-in;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.follow-card:hover {
+  transform: translateY(5px);
+  box-shadow: 2px 2px 26px 0px rgba(0, 0, 0, 0.3);
+}
+
+.follow-card-btn {
+  padding: 8px 20px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  color: #fff;
+  background-color: var(--primary);
+  cursor: pointer;
+}
+
+.follow-card-btn:active {
+  background-color: var(--primary);
+  opacity: 50%;
+}
+
+.close {
+  position: relative;
+  left: 60px;
+  color: rgb(186, 186, 186);
+  cursor: pointer;
+}

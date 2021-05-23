@@ -1,0 +1,130 @@
+.news-card {
+  margin: 1rem;
+  display: block;
+  width: 1003px;
+  /* border: solid black; */
+  border-radius: 10px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.time-stamp-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 25px;
+  padding-right: 10px;
+  width: 350px;
+  /* border: 1px solid black; */
+}
+
+.news-title {
+  padding-right: 50px;
+}
+.news-title > h1 {
+  font-size: 2.5rem;
+  padding-right: 50px;
+}
+
+.news-title > h2 {
+  color: #fa6401;
+  font-weight: bolder;
+  padding-bottom: 20px;
+
+  /* border: 1px solid black; */
+}
+
+.news-title > h4 {
+  font-weight: 900;
+  padding-bottom: 10px;
+
+  /* border: 1px solid black; */
+}
+
+.news-card-header {
+  padding: 1.5rem;
+
+  display: flex;
+  /* border: 1px solid black; */
+}
+
+.news-card-image > img {
+  width: 100%;
+}
+
+.article-section {
+  display: flex;
+}
+
+.col-1 {
+  width: 30%;
+  padding: 2rem 2rem 0rem 2rem;
+}
+.col-1 > p {
+  line-height: 1.8;
+  font-size: 15px;
+}
+
+.col-2 {
+  width: 70%;
+  padding: 2rem 5rem 5rem 1rem;
+}
+
+.col-2 > p {
+  line-height: 1.8;
+  font-size: 20px;
+}
+
+/********* social media CSS*********/
+
+.socila-media-links {
+  padding-top: 10px;
+}
+.fa {
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 25px;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 5px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}

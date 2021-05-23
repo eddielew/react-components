@@ -1,23 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import User from "./components/User";
+import faker from "faker";
+import FollowCard from "./components/FollowCard";
+import NewsCard from "./components/NewsCard";
+import Card from "./components/Card";
+import ContactFormCard from "./components/ContactFormCard";
+import MediaStoryCard from "./components/MediaStoryCard";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <User userName="Chia Li" userPicture={faker.image.avatar()} />
+      <User userName="Karol Kutka" userPicture={faker.image.avatar()} />
+      <User userName="Firman" userPicture={faker.image.avatar()} />
+      <User userName="Gregor" userPicture={faker.image.avatar()} />
+      <FollowCard>
+        <User userName="Irven" userPicture={faker.image.avatar()} />
+      </FollowCard>
+      <FollowCard>
+        <User userName="Irven" userPicture={faker.image.avatar()} />
+      </FollowCard>
+      <FollowCard>
+        <User userName="Irven" userPicture={faker.image.avatar()} />
+      </FollowCard>
+      <FollowCard>
+        <User userName="Irven" userPicture={faker.image.avatar()} />
+      </FollowCard>
+      <ContactFormCard />
+      <MediaStoryCard />
+      <div className="grid">
+        <Card cardPicture={faker.image.image()} />
+        <Card cardPicture={faker.image.image()} />
+        <Card cardPicture={faker.image.image()} />
+        <Card cardPicture={faker.image.image()} />
+        <Card cardPicture={faker.image.image()} />
+        <Card cardPicture={faker.image.image()} />
+      </div>
+
+      <NewsCard newsCardPicture={faker.image.image()} />
     </div>
   );
 }
