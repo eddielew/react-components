@@ -5,7 +5,7 @@ function FollowCard(props) {
   return (
     <div className="follow-card">
       <div className="close">
-        <i class="fas fa-times"></i>
+        <i className="fas fa-times"></i>
       </div>
       {props.children}
       <div className="follow-card-btn">Follow</div>

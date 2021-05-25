@@ -3,6 +3,7 @@ import "./NewsCard.css";
 
 function NewsCard(props) {
   let d = new Date();
+
   return (
     <div className="news-card">
       <section className="news-card-header">
@@ -20,13 +21,13 @@ function NewsCard(props) {
           <h4 className="author">Khoon Lew</h4>
 
           <div className="socila-media-links">
-            <a href="#" className="fa fa-facebook"></a>
-            <a href="#" className="fa fa-twitter"></a>
-            <a href="#" className="fa fa-google"></a>
-            <a href="#" className="fa fa-linkedin"></a>
-            <a href="#" className="fa fa-youtube"></a>
-            <a href="#" className="fa fa-instagram"></a>
-            <a href="#" className="fa fa-pinterest"></a>
+            <button href="#" className="fa fa-facebook"></button>
+            <button href="#" className="fa fa-twitter"></button>
+            <button href="#" className="fa fa-google"></button>
+            <button href="#" className="fa fa-linkedin"></button>
+            <button href="#" className="fa fa-youtube"></button>
+            <button href="#" className="fa fa-instagram"></button>
+            <button href="#" className="fa fa-pinterest"></button>
           </div>
         </div>
       </section>

@@ -2,7 +2,7 @@ import React from "react";
 import "./MediaStoryCard.css";
 import faker from "faker";
 
-function MediaStoryCard(props) {
+function MediaStoryCard() {
   return (
     <div className="media-story-card-container">
       <h5>Read Next</h5>
@@ -12,7 +12,7 @@ function MediaStoryCard(props) {
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus,
           error.
         </span>
-        <img className="item3" src={faker.image.image()} />
+        <img className="item3" src={faker.image.image()} alt="" />
       </div>
       <div className="media-story-card" href="#">
         <span className="item1">Read Next</span>
@@ -20,7 +20,7 @@ function MediaStoryCard(props) {
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus,
           error.
         </span>
-        <img className="item3" src={faker.image.image()} />
+        <img className="item3" src={faker.image.image()} alt="" />
       </div>
       <div className="media-story-card" href="#">
         <span className="item1">Read Next</span>
@@ -28,7 +28,7 @@ function MediaStoryCard(props) {
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus,
           error.
         </span>
-        <img className="item3" src={faker.image.image()} />
+        <img className="item3" src={faker.image.image()} alt="" />
       </div>
       <div className="media-story-card" href="#">
         <span className="item1">Read Next</span>
@@ -36,7 +36,7 @@ function MediaStoryCard(props) {
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus,
           error.
         </span>
-        <img className="item3" src={faker.image.image()} />
+        <img className="item3" src={faker.image.image()} alt="" />
       </div>
     </div>
   );

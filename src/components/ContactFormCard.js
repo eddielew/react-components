@@ -1,7 +1,7 @@
 import React from "react";
 import "./ContactFormCard.css";
 
-function ContactFormCard(props) {
+function ContactFormCard() {
   return (
     <>
       <div className="contact-form card">

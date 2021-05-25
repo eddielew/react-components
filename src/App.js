@@ -6,6 +6,8 @@ import NewsCard from "./components/NewsCard";
 import Card from "./components/Card";
 import ContactFormCard from "./components/ContactFormCard";
 import MediaStoryCard from "./components/MediaStoryCard";
+import Form from "./components/Form";
+import SignInOutForm from "./components/SignInOutForm";
 
 function App() {
   return (
@@ -27,6 +29,7 @@ function App() {
         <User userName="Irven" userPicture={faker.image.avatar()} />
       </FollowCard>
       <ContactFormCard />
+      <Form />
       <MediaStoryCard />
       <div className="grid">
         <Card cardPicture={faker.image.image()} />
@@ -36,6 +39,7 @@ function App() {
         <Card cardPicture={faker.image.image()} />
         <Card cardPicture={faker.image.image()} />
       </div>
+      <SignInOutForm />
 
       <NewsCard newsCardPicture={faker.image.image()} />
     </div>
